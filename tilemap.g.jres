@@ -1,0 +1,33 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "racetrack1": {
+        "id": "racetrack1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAxMDQwNDA0MDQwNDA0MDQwNDA0MDQwNDA0MDQwNDA4MDIwYjBiMGIwYzBjMGMwYzBjMGMwYTBhMGEwYTBhMDcwMjA5MDkwOTBjMGMwYzBjMGMwYzA5MDkwOTA5MDkwNzAyMGMwOTA5MGMwYzBjMGMwYzBjMGMwYzBjMDkwOTA3MDIwYzA5MDkwYzBjMGMwYzBjMGMwYzBjMGMwOTBjMDcwMjBjMDkwYzBjMGMwYzBjMGMwYzBjMGMwYzA5MDkwNzAyMGMwOTBjMGMwOTA5MDkwOTA5MGMwOTA5MDkwOTA3MDIwOTA5MGMwYzA5MDkwOTA5MDkwYzA5MGMwYzBjMDcwMjA5MDkwYzBjMDkwOTBjMGMwOTBjMDkwYzA5MDkwNzAyMDkwOTBjMGMwOTBjMGMwYzA5MGMwOTA5MDkwOTA3MDIwOTA5MGMwYzA5MGMwYzA5MDkwYzA5MDkwYzA5MDcwMjBjMDkwYzBjMDkwYzBjMDkwOTBjMGMwYzBjMDkwNzAyMGMwOTBjMGMwOTA5MGMwYzA5MGMwYzBjMDkwOTA3MDIwOTA5MDkwYzBjMDkwOTBjMDkwOTBjMGMwOTBjMDcwMjBjMGMwOTA5MDkwOTA5MGMwYzA5MDkwOTA5MGMwNzAzMDUwNTA1MDUwNTA1MDUwNTA1MDUwNTA1MDUwNTA2MDAwMDAwMDAwMDAwMDAwMDAwMDAyMjIyMjIwMDAwMDAwMDAwMjIyMjIyMDAwMDAwMjAwMDIyMjIyMjIyMDIwMDIwMDAyMjIyMjIyMjAyMDIyMDIwMjIyMjIyMjIwMjAwMjAyMDAyMDAwMDAyMDAwMDAwMjAwMjAwMDAwMjIyMDIwMDIwMDIyMDAyMDIwMjAwMDAyMDAyMjIwMjAyMDAwMDAwMjAwMjIyMDAwMjIwMDAyMDIwMDIyMjAwMjIyMjAwMjAyMDAyMjAwMjIyMDIwMDAwMDAyMjAwMDIyMDAyMDIyMDAyMDAwMDIyMDAwMDAyMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.castle.tilePath1",
+            "sprites.castle.tilePath4",
+            "sprites.castle.tilePath7",
+            "sprites.castle.tilePath2",
+            "sprites.castle.tilePath8",
+            "sprites.castle.tilePath9",
+            "sprites.castle.tilePath6",
+            "sprites.castle.tilePath3",
+            "sprites.dungeon.floorDarkDiamond",
+            "sprites.dungeon.greenOuterNorth2",
+            "sprites.dungeon.collectibleInsignia",
+            "sprites.dungeon.hazardLava0"
+        ],
+        "displayName": "racetrack1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}

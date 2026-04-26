@@ -1,0 +1,42 @@
+function racetrack1 () {
+    splitScreen.setSplitScreenEnabled(true)
+    tiles.setCurrentTilemap(tilemap`racetrack1`)
+    mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.One))
+    mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.Two))
+    mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.Three))
+    mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.Four))
+    scaling.scaleToPercent(Player1, 100, ScaleDirection.Uniformly, ScaleAnchor.Middle)
+    scaling.scaleToPercent(player2, 100, ScaleDirection.Uniformly, ScaleAnchor.Middle)
+    scaling.scaleToPercent(player3, 100, ScaleDirection.Uniformly, ScaleAnchor.Middle)
+    scaling.scaleToPercent(player_4, 100, ScaleDirection.Uniformly, ScaleAnchor.Middle)
+    splitScreen.cameraFollowSprite(splitScreen.Camera.Camera1, Player1)
+    splitScreen.cameraFollowSprite(splitScreen.Camera.Camera2, player2)
+    splitScreen.cameraFollowSprite(splitScreen.Camera.Camera3, player3)
+    splitScreen.cameraFollowSprite(splitScreen.Camera.Camera4, player_4)
+}
+controller.combos.attachCombo("abab", function () {
+    splitScreen.setSplitScreenEnabled(false)
+    racetrack1()
+})
+let player_4: Sprite = null
+let player3: Sprite = null
+let player2: Sprite = null
+let Player1: Sprite = null
+splitScreen.setSplitScreenEnabled(false)
+scene.setBackgroundImage(assets.image`startbg`)
+Player1 = sprites.create(assets.image`p1`, SpriteKind.Player)
+mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.One), Player1)
+scaling.scaleByPercent(Player1, 50, ScaleDirection.Uniformly, ScaleAnchor.Middle)
+Player1.setPosition(6, 99)
+player2 = sprites.create(assets.image`p2`, SpriteKind.Player)
+mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two), player2)
+scaling.scaleByPercent(player2, 50, ScaleDirection.Uniformly, ScaleAnchor.Middle)
+player2.setPosition(42, 90)
+player3 = sprites.create(assets.image`p3`, SpriteKind.Player)
+mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Three), player3)
+scaling.scaleByPercent(player3, 50, ScaleDirection.Uniformly, ScaleAnchor.Middle)
+player3.setPosition(79, 95)
+player_4 = sprites.create(assets.image`p4`, SpriteKind.Player)
+mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Four), player_4)
+scaling.scaleToPercent(player_4, 150, ScaleDirection.Uniformly, ScaleAnchor.Middle)
+player_4.setPosition(140, 104)

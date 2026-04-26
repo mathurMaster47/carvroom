@@ -1,0 +1,35 @@
+{
+    "name": "carvroom",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "multiplayer": "*",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3",
+        "sprite-scaling": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "controller": "*",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.18"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
